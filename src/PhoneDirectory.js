@@ -81,8 +81,8 @@ export default function PhoneDirectory(){
 
         <Router>
             <div>
-                <Route exact path="/" render={(props) => <ShowSubscribers {...props} deleteSubscriberHandler={(subscriberId)=>deleteSubscriberHandler(subscriberId)} />} />
-                <Route exact path="/add" render={({history}, props) => <AddSubscriber {...props} addSubscriberHandler={(newSubscriber)=>addSubscriberHandler(newSubscriber)} />} />
+                <Route  path="/" render={(props) => <ShowSubscribers {...props} deleteSubscriberHandler={(subscriberId)=>deleteSubscriberHandler(subscriberId)} />} />
+                <Route  path="/add" render={({history}, props) => <AddSubscriber {...props} addSubscriberHandler={(newSubscriber)=>addSubscriberHandler(newSubscriber)} />} />
             </div>
         </Router>
             <SubscriberCountContext.Provider value={subscribersList.length}>
