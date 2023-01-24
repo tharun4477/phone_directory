@@ -1,7 +1,7 @@
 {
   "name": "phone-directory",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage" : "http://tharun4477.github.io/phone_directory",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
